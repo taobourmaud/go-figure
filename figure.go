@@ -12,7 +12,7 @@ const first_ascii = ' '
 const last_ascii = '~'
 
 type figure struct {
-	phrase string
+	phrase Args
 	font
 	strict bool
 	color  string
